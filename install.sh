@@ -376,8 +376,7 @@ function acme() {
   sed -i "6s/^/#/" "$nginx_conf"
   sed -i "6a\\\troot $website_dir;" "$nginx_conf"
   systemctl restart nginx
-  export Ali_Key="LTAI4GL133Mkcqqw4cHaPs2P"
-  export Ali_Secret="SkNSdB1mfV8VI6U8BMC6Ck6rk2EdEC"
+
   
 
   if "$HOME"/.acme.sh/acme.sh --issue --dns dns_ali -d *.kokunki-wave.com --webroot "$website_dir" -k ec-256 --force; then
