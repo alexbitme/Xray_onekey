@@ -6,7 +6,7 @@
 #	Dscription: Xray onekey Management
 #	email: admin@wulabing.com
 #====================================================
-123456
+
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 stty erase ^?
 
