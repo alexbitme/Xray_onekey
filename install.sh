@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash-new
 
 #====================================================
 #	System Request:Debian 9+/Ubuntu 18.04+/Centos 7+
