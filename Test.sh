@@ -2,13 +2,9 @@
 
 echo "Hello World !"
 
-if read -t 5 -p "please enter your name:" name 
-then 
-    echo "hello $name ,welcome to my script" 
-else 
-    echo "sorry,too slow"
-    exit 1 
-fi
+read -p  "Enter your name:"  name
+ 
+echo  "hello $name, welcome to my program"
 
 # function domain_check() {
 #   read -rp "请输入你的Ali_Key :" Ali_Key
