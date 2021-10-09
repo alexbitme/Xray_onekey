@@ -1,4 +1,4 @@
-#Test
+#!/usr/bin/env bash-new
 
 
 function domain_check() {
