@@ -2,8 +2,8 @@
 
 echo "Hello World !"
 
-read -rp "请输入你的Ali_Key :" Ali_Key
-export Ali_Key="${Ali_Key}"
+read -t 30 -p “Please input your name:” name
+echo “Name is $name”
 
 # function domain_check() {
 #   read -rp "请输入你的Ali_Key :" Ali_Key
