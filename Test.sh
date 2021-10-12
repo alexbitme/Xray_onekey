@@ -6,7 +6,7 @@ echo "Hello World !"
 
 read -p  "Enter your name:"  name
  
-
+echo "hello $name, welcome to my program"
 
 function domain_check() {
   read -rp "请输入你的Ali_Key :" Ali_Key
