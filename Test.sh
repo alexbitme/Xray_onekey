@@ -16,3 +16,5 @@ function domain_check() {
   read -rp "请输入你的域名信息:" domain
   acme.sh --issue --dns dns_ali  -d "${domain}"
   }
+
+domain_check
