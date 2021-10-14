@@ -14,7 +14,9 @@ function domain_check() {
   read -rp "请输入你的Ali_Secret :" Ali_Secret
   export Ali_Key="${Ali_Secret}"
   read -rp "请输入你的域名信息:" domain
-  /root/.acme.sh/acme.sh --issue --dns dns_ali  -d "${domain}"
+  
+  "$HOME"/.acme.sh/acme.sh --set-default-ca --server letsencrypt
+  "$HOME"/.acme.sh/acme.sh --issue --dns dns_ali  -d "${domain}"
   }
 
 domain_check
