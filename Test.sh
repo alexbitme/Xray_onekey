@@ -13,7 +13,7 @@ function domain_check() {
   echo "export Ali_Key=" '"' "${Ali_Key}" '"'
 #   export Ali_Key="${Ali_Key}"
   read -rp "请输入你的Ali_Secret :" Ali_Secret
-  echo "export Ali_Secret=""${Ali_Secret}"
+  echo "export Ali_Secret=" '"' "${Ali_Secret}" '"'
 #   export Ali_Secret="${Ali_Secret}"
   read -rp "请输入你的域名信息:" domain
   
