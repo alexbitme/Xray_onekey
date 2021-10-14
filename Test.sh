@@ -21,4 +21,4 @@ echo "hello $name, welcome to my program".'"'."sss".'"'
 #   "$HOME"/.acme.sh/acme.sh --issue --dns dns_ali  -d "${domain}"
 #   }
 
-domain_check
+# domain_check
