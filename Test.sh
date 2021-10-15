@@ -8,7 +8,7 @@
 #  echo "hello $name, welcome to my program"
  
  
-echo "hello $name, welcome to my program".'"'."sss".'"'
+echo "hello, welcome to my program"'"'"sss"'"'
 
 # function domain_check() {
 #   read -rp "请输入你的Ali_Key :" Ali_Key
